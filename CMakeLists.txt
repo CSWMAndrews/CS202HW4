@@ -3,4 +3,4 @@ project(CS202HW4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS202HW4 main.cpp)
+add_executable(CS202HW4 main.cpp Money.cpp Money.hpp)

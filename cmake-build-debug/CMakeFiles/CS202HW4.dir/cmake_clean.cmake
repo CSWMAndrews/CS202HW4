@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CS202HW4.dir/main.cpp.obj"
+  "CMakeFiles/CS202HW4.dir/Money.cpp.obj"
   "CS202HW4.pdb"
   "CS202HW4.exe"
   "CS202HW4.exe.manifest"

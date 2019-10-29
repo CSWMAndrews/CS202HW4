@@ -122,6 +122,33 @@ CS202HW4/fast:
 	$(MAKE) -f CMakeFiles\CS202HW4.dir\build.make CMakeFiles/CS202HW4.dir/build
 .PHONY : CS202HW4/fast
 
+Money.obj: Money.cpp.obj
+
+.PHONY : Money.obj
+
+# target to build an object file
+Money.cpp.obj:
+	$(MAKE) -f CMakeFiles\CS202HW4.dir\build.make CMakeFiles/CS202HW4.dir/Money.cpp.obj
+.PHONY : Money.cpp.obj
+
+Money.i: Money.cpp.i
+
+.PHONY : Money.i
+
+# target to preprocess a source file
+Money.cpp.i:
+	$(MAKE) -f CMakeFiles\CS202HW4.dir\build.make CMakeFiles/CS202HW4.dir/Money.cpp.i
+.PHONY : Money.cpp.i
+
+Money.s: Money.cpp.s
+
+.PHONY : Money.s
+
+# target to generate assembly for a file
+Money.cpp.s:
+	$(MAKE) -f CMakeFiles\CS202HW4.dir\build.make CMakeFiles/CS202HW4.dir/Money.cpp.s
+.PHONY : Money.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... CS202HW4
 	@echo ... rebuild_cache
+	@echo ... Money.obj
+	@echo ... Money.i
+	@echo ... Money.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
